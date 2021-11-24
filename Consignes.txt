@@ -1,0 +1,3 @@
+caroussel en css
+dark mode (jour/nuit) en js
+parallax ??

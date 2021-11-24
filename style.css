@@ -1,0 +1,84 @@
+body {
+    background: url("images/canard_bg.jpg") repeat;
+    margin: auto;
+}
+
+#main_wrapper {
+    width: 900px;
+    margin: auto;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color : #048B9A;
+}
+
+/** HEADER **/
+
+header {
+    display: flex;
+    align-items: baseline;
+    text-transform: uppercase;
+}
+
+header a {
+    color:#048B9A;
+    text-decoration: none;
+}
+
+#logo {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    flex: 1;
+}
+
+nav {
+    flex: 2;
+}
+
+ol {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+ol li a:hover{
+    color:royalblue;
+    text-decoration: underline;
+}
+
+/** SECTIONS **/ 
+
+section {
+    background: url('images/separateur.png') repeat-x bottom;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.type {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.type article {
+   padding-right: 50px;
+}
+
+h3 {
+   margin-top: 0;
+}
+
+/** FOOTER **/
+
+footer {
+    padding-top: 20px;
+}
+
+fieldset {
+    width: 33%;
+}
+
+fieldset div {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
