@@ -3,8 +3,6 @@
     --color-2: rgb(245, 245, 235, 0.5);
     --color-3: white;
     --color-4: rgb(155, 155, 155);
-
-    --visibility-1: hidden;
 }
 
 @font-face {
@@ -15,8 +13,6 @@
          url('src/fonts/fraunces/frauncessoftwonkopszwght-webfont.woff') format('woff'),
          url('src/fonts/fraunces/frauncessoftwonkopszwght-webfont.ttf') format('truetype'),
          url('src/fonts/fraunces/frauncessoftwonkopszwght-webfont.svg#frauncesblack') format('svg');
-    font-weight: normal;
-    font-style: normal;
 }
 
 body {
@@ -30,6 +26,11 @@ body {
 
 a {
     text-decoration: none;
+}
+
+strong, em {
+    font-weight: normal;
+    font-style: normal;
 }
 
 /*************  HEADER *******************/
@@ -98,6 +99,11 @@ nav a:hover{
     margin-bottom: 10px;
 }
 
+@-webkit-keyframes carrousel {
+    from { transform: translate(0); }
+    to   { transform: translate(-413.5%); }
+}
+
 @keyframes carrousel {
     from { transform: translate(0); }
     to   { transform: translate(-413.5%); }
@@ -152,6 +158,7 @@ h2 {
 footer {
     display: flex;
     justify-content: space-around;
+    align-items: flex-start;
     margin-top: 25px;
     padding: 20px 0;
     background-color: var(--color-1);
