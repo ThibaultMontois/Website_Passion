@@ -1,4 +1,4 @@
-:root{
+:root {
     --color-1: #048B9A;
     --color-2: rgb(245, 245, 235, 0.5);
     --color-3: white;
@@ -13,6 +13,10 @@
          url('src/fonts/fraunces/frauncessoftwonkopszwght-webfont.woff') format('woff'),
          url('src/fonts/fraunces/frauncessoftwonkopszwght-webfont.ttf') format('truetype'),
          url('src/fonts/fraunces/frauncessoftwonkopszwght-webfont.svg#frauncesblack') format('svg');
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
